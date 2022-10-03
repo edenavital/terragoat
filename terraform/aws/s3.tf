@@ -65,6 +65,9 @@ resource "aws_s3_bucket" "financials" {
 
 resource "aws_s3_bucket" "financials_log_bucket" {
   bucket = "financials-log-bucket"
+  tags = {
+    yor_trace = "8388f7a8-eaa8-412e-9865-59a58e123dfe"
+  }
 }
 
 resource "aws_s3_bucket_logging" "financials" {

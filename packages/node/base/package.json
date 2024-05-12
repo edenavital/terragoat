@@ -22,6 +22,7 @@
     "// 2": "Find the usage you are looking for with:",
     "// 3": "yarn ng-dev --help",
     "/ ": "",
+    "test2": "test script",
     "test": "bazelisk test",
     "test-tsec": "bazelisk test //... --build_tag_filters=tsec --test_tag_filters=tsec",
     "lint": "yarn -s tslint && yarn -s ng-dev format changed --check",

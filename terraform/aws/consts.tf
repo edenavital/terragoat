@@ -18,7 +18,7 @@ locals {
 
 
 variable "profile" {
-  default = "default"
+  default = "defaulttt"
 }
 
 variable "region" {

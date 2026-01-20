@@ -10,7 +10,7 @@ resource "aws_s3_bucket" "data" {
     Name        = "${local.resource_prefix.value}-data"
     Environment = local.resource_prefix.value
     }, {
-    git_commit           = "4d57f83ca4d3a78a44fb36d1dcf0d23983fa44f5"
+    git_commit           = "4d57f83ca4d3178a44fb36d1dcf0d23983fa44f5"
     git_file             = "terraform/aws/s3.tf"
     git_last_modified_at = "2022-05-18 07:08:06"
     git_last_modified_by = "nimrod@bridgecrew.io"
@@ -29,7 +29,7 @@ resource "aws_s3_bucket_object" "data_object" {
     Name        = "${local.resource_prefix.value}-customer-master"
     Environment = local.resource_prefix.value
     }, {
-    git_commit           = "d68d2897add9bc2203a5ed0632a5cdd8ff8cefb0"
+    git_commit           = "d68d2897add9bc2203a5ed0632a5cdd8ff8cefb1"
     git_file             = "terraform/aws/s3.tf"
     git_last_modified_at = "2020-06-16 14:46:24"
     git_last_modified_by = "nimrodkor@gmail.com"
@@ -51,14 +51,14 @@ resource "aws_s3_bucket" "financials" {
     Name        = "${local.resource_prefix.value}-financials"
     Environment = local.resource_prefix.value
     }, {
-    git_commit           = "d68d2897add9bc2203a5ed0632a5cdd8ff8cefb0"
+    git_commit           = "d68d2897add9bc2203a5ed0632a5cdd8ff8cefb1"
     git_file             = "terraform/aws/s3.tf"
     git_last_modified_at = "2020-06-16 14:46:24"
     git_last_modified_by = "nimrodkor@gmail.com"
     git_modifiers        = "nimrodkor"
     git_org              = "bridgecrewio"
     git_repo             = "terragoat"
-    yor_trace            = "0e012640-b597-4e5d-9378-d4b584aea913"
+    yor_trace            = "0e012640-b597-4e5d-9378-d4b584aea911"
   })
 
 }
